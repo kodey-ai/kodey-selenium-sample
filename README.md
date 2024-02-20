@@ -39,7 +39,7 @@ In this sample, we will explore how Kodey.ai can create selenium code and automa
     quote: div.quote > span.text
     author: div.quote > span small.author
     tags: div.quote > div.tags a.tag
-    NOTE: The output should be in the form of a list of dictionaries. Each dictionary should have keys as "quote", "author" and "tags" and their respective values.
+    NOTE: The output should be a list of dictionaries with keys as quote, author and tags and should be saved in a json file.
 
     step 4: using GithubCreateNewFile tool, Create a new file called main.py which should use the driver and scrapers/quotes_to_scrape.py to scrape the quotes details and print them.
 
@@ -72,7 +72,7 @@ In this sample, we will explore how Kodey.ai can create selenium code and automa
     quote: div.quote > span.text
     author: div.quote > span small.author
     tags: div.quote > div.tags a.tag
-    NOTE: The output should be in the form of a list of dictionaries. Each dictionary should have keys as "quote", "author" and "tags" and their respective values.
+    NOTE: The output should be a list of dictionaries with keys as quote, author and tags and should be saved in a json file.
 
     step 4: using AzureDevopsRepositoryCreateNewFile tool, Create a new file called main.py which should use the driver and quotes-to-scrape.py to scrape the quotes details and print them.
 
@@ -108,7 +108,7 @@ In this sample, we will explore how Kodey.ai can create selenium code and automa
     quote: div.quote > span.text
     author: div.quote > span small.author
     tags: div.quote > div.tags a.tag
-    NOTE: The output should be in the form of a list of dictionaries. Each dictionary should have keys as "quote", "author" and "tags" and their respective values.
+    NOTE: The output should be a list of dictionaries with keys as quote, author and tags and should be saved in a json file.
 
     step 4: using BitBucketWriteCode tool, Create a new file called main.py which should use the driver and quotes-to-scrape.py to scrape the quotes details and print them.
 
