@@ -29,23 +29,23 @@ In this sample, we will explore how Kodey.ai can create selenium code and automa
     step 2: Using WebCrawler Tool, understand how to use selenium and webdriver_manager to initiate a driver in headless mode and scrape data from
     https://www.scrapingbee.com/blog/selenium-python/
 
-    step 2: using GithubCreateNewFile tool, Create a new file called driver.py, the file should have class and methods to initiate a chrome driver.
+    step 3: Using GithubCreateNewFile tool, Create a new file called driver.py, the file should have class and methods to initiate a chrome driver.
     The driver should be in headless mode. The class should have a method to get the driver instance and another method to close the driver instance.
     The class should be named as Driver and the file should be in the root directory of the repository. You have to use webdriver_manager to initiate the driver.
     Make sure to use the chrome driver.
 
-    step 3: using GithubCreateNewFile tool, Create another new file called scrapers/quotes_to_scrape.py, the file should use the driver instance created in the previous step.
+    step 4: Using GithubCreateNewFile tool, Create another new file called scrapers/quotes_to_scrape.py, the file should use the driver instance created in the previous step.
     This new file should have a class and methods to scrape quotes from the website http://quotes.toscrape.com/. THe file should scrape qutoes, authors and tags. Below are the CSS selectors to be used:
     quote: div.quote > span.text
     author: div.quote > span small.author
     tags: div.quote > div.tags a.tag
     NOTE: The output should be a list of dictionaries with keys as quote, author and tags and should be saved in a json file.
 
-    step 4: using GithubCreateNewFile tool, Create a new file called main.py which should use the driver and scrapers/quotes_to_scrape.py to scrape the quotes details and print them.
+    step 5: Using GithubCreateNewFile tool, Create a new file called main.py which should use the driver and scrapers/quotes_to_scrape.py to scrape the quotes details and print them.
 
-    step 5: using GithubCreateNewFile tool, cerate a new file called requirements.txt and add the packages required to run the code.
+    step 6: Using GithubCreateNewFile tool, cerate a new file called requirements.txt and add the packages required to run the code.
     
-    step 6: using GithubCreatePullRequest tool, create a new Pull Request from the above created branch with title "Added Quotes To Scrape".
+    step 7: Using GithubCreatePullRequest tool, create a new Pull Request from the above created branch with title "Added Quotes To Scrape".
 ```
 
 ### SAMPLE PROMPT - Azure DevOps Tools (Crawling Quotes To Scrape Website and getting data)
@@ -62,25 +62,25 @@ In this sample, we will explore how Kodey.ai can create selenium code and automa
     step 2: Using WebCrawler Tool, understand how to use selenium and webdriver_manager to initiate a driver in headless mode and scrape data from
     https://www.scrapingbee.com/blog/selenium-python/
 
-    step 2: using AzureDevopsRepositoryCreateNewFile tool, Create a new file called driver.py, the file should have class and methods to initiate a chrome driver.
+    step 3: Using AzureDevopsRepositoryCreateNewFile tool, Create a new file called driver.py, the file should have class and methods to initiate a chrome driver.
     The driver should be in headless mode. The class should have a method to get the driver instance and another method to close the driver instance.
     The class should be named as Driver and the file should be in the root directory of the repository. You have to use webdriver_manager to initiate the driver.
     Make sure to use the chrome driver.
 
-    step 3: using AzureDevopsRepositoryCreateNewFile tool, Create another new file called scrapers/quotes_to_scrape.py, the file should use the driver instance created in the previous step.
+    step 4: Using AzureDevopsRepositoryCreateNewFile tool, Create another new file called scrapers/quotes_to_scrape.py, the file should use the driver instance created in the previous step.
     This new file should have a class and methods to scrape quotes from the website http://quotes.toscrape.com/. THe file should scrape qutoes, authors and tags. Below are the CSS selectors to be used:
     quote: div.quote > span.text
     author: div.quote > span small.author
     tags: div.quote > div.tags a.tag
     NOTE: The output should be a list of dictionaries with keys as quote, author and tags and should be saved in a json file.
 
-    step 4: using AzureDevopsRepositoryCreateNewFile tool, Create a new file called main.py which should use the driver and quotes-to-scrape.py to scrape the quotes details and print them.
+    step 5: Using AzureDevopsRepositoryCreateNewFile tool, Create a new file called main.py which should use the driver and quotes-to-scrape.py to scrape the quotes details and print them.
 
-    step 5: using AzureDevopsRepositoryCreateNewFile tool, cerate a new file called requirements.txt and add the packages required to run the code.
+    step 6: Using AzureDevopsRepositoryCreateNewFile tool, cerate a new file called requirements.txt and add the packages required to run the code.
     
-    step 6: using AzureDevopsPullRequestsCreatePullRequest tool, create a new Pull Request from the above created branch with title "Added Quotes To Scrape".
+    step 7: Using AzureDevopsPullRequestsCreatePullRequest tool, create a new Pull Request from the above created branch with title "Added Quotes To Scrape".
 
-    step 7: using AzureDevopsIssuesUpdateIssue tool, update the issue status to done.
+    step 8: Using AzureDevopsIssuesUpdateIssue tool, update the issue status to done.
 ```
 
 ### SAMPLE PROMPT - Jira / Bitbucket (Crawling Quotes To Scrape Website and getting data)
@@ -98,25 +98,25 @@ In this sample, we will explore how Kodey.ai can create selenium code and automa
     step 2: Using WebCrawler Tool, understand how to use selenium and webdriver_manager to initiate a driver in headless mode and scrape data from
     https://www.scrapingbee.com/blog/selenium-python/
 
-    step 2: using BitBucketWriteCode tool, Create a new file called driver.py, the file should have class and methods to initiate a chrome driver.
+    step 3: Using BitBucketWriteCode tool, Create a new file called driver.py, the file should have class and methods to initiate a chrome driver.
     The driver should be in headless mode. The class should have a method to get the driver instance and another method to close the driver instance.
     The class should be named as Driver and the file should be in the root directory of the repository. You have to use webdriver_manager to initiate the driver.
     Make sure to use the chrome driver.
 
-    step 3: using BitBucketWriteCode tool, Create another new file called scrapers/quotes_to_scrape.py, the file should use the driver instance created in the previous step.
+    step 4: Using BitBucketWriteCode tool, Create another new file called scrapers/quotes_to_scrape.py, the file should use the driver instance created in the previous step.
     This new file should have a class and methods to scrape quotes from the website http://quotes.toscrape.com/. THe file should scrape qutoes, authors and tags. Below are the CSS selectors to be used:
     quote: div.quote > span.text
     author: div.quote > span small.author
     tags: div.quote > div.tags a.tag
     NOTE: The output should be a list of dictionaries with keys as quote, author and tags and should be saved in a json file.
 
-    step 4: using BitBucketWriteCode tool, Create a new file called main.py which should use the driver and quotes-to-scrape.py to scrape the quotes details and print them.
+    step 5: Using BitBucketWriteCode tool, Create a new file called main.py which should use the driver and quotes-to-scrape.py to scrape the quotes details and print them.
 
-    step 5: using BitBucketWriteCode tool, cerate a new file called requirements.txt and add the packages required to run the code.
+    step 6: Using BitBucketWriteCode tool, cerate a new file called requirements.txt and add the packages required to run the code.
     
-    step 6: using BitBucketCreateNewPullRequest tool, create a new Pull Request from the above created branch with title "Added Quotes To Scrape".
+    step 7: Using BitBucketCreateNewPullRequest tool, create a new Pull Request from the above created branch with title "Added Quotes To Scrape".
 
-    step 7: Update this jira issue status to done.
+    step 8: Update this jira issue status to done.
 ```
 
 ## Once you have set the description of the issue in your relavant system. You need to use kodey UI Chat and execute below statement to get the work done. 
@@ -133,7 +133,7 @@ In this sample, we will explore how Kodey.ai can create selenium code and automa
 
 ### Jira Issue and Bitbucket Repo
 ```
-   Get the issue with id <issue_id> from bitbucket repo and do as the description of the issue says.
+   Get the issue with id <issue_id> from jira and do as the description of the issue says.
 ```
 
 ## Confirming Successful Sample Outputs
