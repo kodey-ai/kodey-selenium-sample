@@ -17,6 +17,10 @@ In this sample, we will explore how Kodey.ai can create selenium code and automa
 
 ### SAMPLE PROMPT - Github Tools (Crawling Quotes To Scrape Website and getting data)
 ```
+    platform: github
+    
+    repository-to-work-on: kodey-selenium-sample
+    
     branch name to create: feature/quotes-to-scrape
 
     Information to agent: Do as the steps below are defined one by one. You are working in github repo so make sure to use tools related to github repo.
@@ -50,6 +54,10 @@ In this sample, we will explore how Kodey.ai can create selenium code and automa
 
 ### SAMPLE PROMPT - Azure DevOps Tools (Crawling Quotes To Scrape Website and getting data)
 ```
+    platform: azure
+    
+    repository-to-work-on: kodey-selenium-sample
+    
     branch name to create: feature/quotes-to-scrape
 
     Information to agent: Do as the steps below are defined one by one. You are working in azure repo so make sure to use tools related to azure repo.
@@ -85,8 +93,11 @@ In this sample, we will explore how Kodey.ai can create selenium code and automa
 
 ### SAMPLE PROMPT - Jira / Bitbucket (Crawling Quotes To Scrape Website and getting data)
 ```
-
-   branch name to create: feature/quotes-to-scrape
+    platform: bitbucket
+    
+    repository-to-work-on: kodey-selenium-sample
+   
+    branch name to create: feature/quotes-to-scrape
 
     Information to agent: Do as the steps below are defined one by one. You are working in azure repo so make sure to use tools related to azure repo.
     NOTE: You should write the actual implementation of code not just comments. 
